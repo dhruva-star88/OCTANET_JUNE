@@ -102,3 +102,106 @@ button a{
     font-size: 13px;
     padding-left: 120px;
 }
+.model{ 
+    width:900px;
+    height: 200px;
+
+}
+.mod1{
+    display: flex;
+    background-image: url(model5.jpg);
+    background-size: cover;
+    background-position: relative;
+   height: 700px;
+   width:100%;
+   background-repeat: no-repeat;
+}
+
+.shopnow button{
+    margin-left: 660px;
+    width: 200px;
+    border-radius: 0%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.shopnow button a{
+    font-size: 20px;
+}
+
+.empty{
+    background-color: black;
+    margin-top: -20px;
+    width: 850px;
+    height: 80px;
+    padding-left: 645px;
+    padding-right: 15px;
+    
+}
+
+.empty h1{
+    padding-top: 12px;
+    font-family: myfont2;
+    font-size: 50px;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+.image-container img {
+    width: auto;
+    height: 70vh; /* This ensures the height is always in view, adjust as needed */
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    margin: 0 100px; /* Adjust spacing between images */
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.btn-container button{
+    width: 250px;
+    margin: 0 120px;
+    border-radius: 0%;
+    background-color: white;
+}
+
+.btn-container button a{
+    font-size: 20px;
+}
+
+.btm-box{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btm-box p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.btm-box ul{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.fa-brands{
+    width: 50px;
+    font-size: 50px;
+}
+hr{
+    margin-top: -8px;
+    color: white;
+
+}
