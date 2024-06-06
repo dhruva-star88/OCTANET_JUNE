@@ -200,8 +200,46 @@ button a{
     width: 50px;
     font-size: 50px;
 }
+
 hr{
     margin-top: -8px;
     color: white;
+}
 
+.box-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-list ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.help-list li a{
+    font-size: 15px;
+}
+
+.info-list p{
+    margin-left: 8px;
+}
+
+.info-list ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-list li a{
+    font-size: 15px;
+}
+.about-us p{
+    margin-left: 5px;
+}
+.about-us ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us li a{
+    font-size: 15px;
 }
