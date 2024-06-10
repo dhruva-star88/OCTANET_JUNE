@@ -10,6 +10,10 @@
     font-family: myfont2;
     src: url(Asquire.otf);
 }
+@font-face {
+    font-family: myfont3;
+    src: url(doctor.otf);
+}
 *{
     text-decoration: none;
 }
@@ -105,8 +109,20 @@ button a{
 .model{ 
     width:900px;
     height: 200px;
-
 }
+.overlay-text {
+    position: absolute;
+    font-family: myfont3;
+    top: 50%; /* Center vertically */
+    left: 30%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white; /* Adjust text color */
+    font-size: 100px; /* Adjust font size */
+     /* Optional: Background color with transparency */
+    padding: 10px; /* Optional: Padding around the text */ /* Optional: Rounded corners */
+    z-index: 10; /* Ensure it's above the image */
+  }
+
 .mod1{
     display: flex;
     background-image: url(model5.jpg);
